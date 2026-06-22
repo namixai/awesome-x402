@@ -363,6 +363,9 @@ Full working examples and templates.
 - [CIPHER Premium](https://cipher-x402.vercel.app) - Next.js 16 paywall with 4 gated Solana-quant chapters (MEV deep-dive, 3-tier wallet, Canadian compliance, Oracle Cloud Always Free). $0.25 USDC/Base per fetch. Hand-rolled proxy.ts, no facilitator deps at advertise time.
 
 ### API Examples
+- [tokenguard](https://eltociear-tokenguard.hf.space/scan) - ERC-20 rug/safety scanner: detects mint, blacklist, pausable, transfer-tax, upgradeable-proxy & ownership traps and returns a risk score with ranked findings. $0.005 USDC per call on Base. Part of an onchain-intelligence suite (also `/wallet`, `/price`, `/ens`, `/gas`). No signup — wallet is auth.
+- [skill-audit](https://eltociear-skill-audit.hf.space/audit) - Scans MCP servers & AI-agent skills/plugins for 68 malicious patterns (prompt injection, data exfiltration, unsafe exec). $0.01 USDC per call on Base. ([GitHub](https://github.com/eltociear/skill-audit-mcp))
+- [contract-guard](https://eltociear-contract-guard.hf.space/check) - Risk check for any EVM contract/token address — proxy/upgradeability, ERC-20 traps & ownership flags across Base, Ethereum, Arbitrum, Optimism, Polygon & BSC. $0.005 USDC per call on Base.
 - [Daizyx402 Security Research API](http://daizyx402.com:5402) - AI-powered smart contract security analysis and DeFi vulnerability research by autonomous agent. $0.05 USDC per query, $0.50 USDC deep analysis on Base mainnet. No signup required.
 
 - [tx402.ai](https://tx402.ai) - Agent-native LLM inference gateway. 20+ EU-hosted models (DeepSeek, Qwen, Llama, GLM, Mixtral) via x402 USDC micropayments on Base. OpenAI-compatible API, SSE streaming, GDPR-compliant, zero data retention. No API keys — wallet is auth. [Models](https://tx402.ai/v1/models) | [OpenAPI](https://tx402.ai/openapi.json) | [llms.txt](https://tx402.ai/llms.txt) | [Source](https://github.com/Tensorix-ai/agent-gateway)
